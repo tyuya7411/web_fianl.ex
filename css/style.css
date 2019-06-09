@@ -356,6 +356,8 @@ ul.style h3 {
     font-size: 1.1em;
     font-weight: 700;
     color: #404040;
+    border-style: outset;
+    border-width: 3px;
 }
 
 ul.style .fa {
@@ -364,12 +366,13 @@ ul.style .fa {
     width: 80px;
     height: 80px;
     margin-right: 1em;
-    background: #a85f00;
+    background: url(https://scontent.ftpe12-2.fna.fbcdn.net/v/t1.15752-9/62335093_847879272239350_3257649766787448832_n.png?_nc_cat=101&_nc_ht=scontent.ftpe12-2.fna&oh=7be1d378549359d9deac0178a58937c0&oe=5D9B52CE);
     line-height: 80px;
     text-align: center;
     border-radius: 10px;
     font-size: 2em;
     color: white;
+    border-bottom-style: dotted;
 }
 
 ul.list {
