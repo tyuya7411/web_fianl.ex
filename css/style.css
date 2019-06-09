@@ -345,6 +345,11 @@ ul.style li {
     padding-top: 3em;
 }
 
+ul.style li li::before {
+    content: "\1F370";
+    margin-right: 5px;
+}
+
 ul.style> :first-child {
     padding-top: 0;
 }
@@ -366,12 +371,11 @@ ul.style .fa {
     width: 80px;
     height: 80px;
     margin-right: 1em;
-    background: url(https://scontent.ftpe12-2.fna.fbcdn.net/v/t1.15752-9/62335093_847879272239350_3257649766787448832_n.png?_nc_cat=101&_nc_ht=scontent.ftpe12-2.fna&oh=7be1d378549359d9deac0178a58937c0&oe=5D9B52CE);
+    background: url(https://scontent.ftpe6-1.fna.fbcdn.net/v/t1.15752-9/62335093_847879272239350_3257649766787448832_n.png?_nc_cat=101&_nc_ht=scontent.ftpe6-1.fna&oh=9a8ad1caee35c89511993d1b75175a25&oe=5D9B52CE);
     line-height: 80px;
     text-align: center;
     border-radius: 10px;
     font-size: 2em;
-    color: white;
     border-bottom-style: dotted;
 }
 
